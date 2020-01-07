@@ -1,0 +1,22 @@
+------------- Cold processing --------------
+| Load Plugin/Scripts/Database |    0.903s |
+| Process Source               |   24.741s |
+| Render Files                 |   35.092s |
+| Save Database                |    2.171s |
+| Total time                   |   62.907s |
+| Memory Usage(RSS)            | 960.828MB |
+-------------- Hot processing --------------
+| Load Plugin/Scripts/Database |    4.238s |
+| Process Source               |    2.380s |
+| Render Files                 |   34.924s |
+| Save Database                |    1.865s |
+| Total time                   |   43.407s |
+| Memory Usage(RSS)            | 1095.164MB |
+--------- Another Cold processing ----------
+| Load Plugin/Scripts/Database |    1.075s |
+| Process Source               |   24.555s |
+| Render Files                 |   34.803s |
+| Save Database                |    1.956s |
+| Total time                   |   62.389s |
+| Memory Usage(RSS)            | 947.949MB |
+--------------------------------------------
